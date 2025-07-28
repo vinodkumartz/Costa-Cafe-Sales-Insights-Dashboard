@@ -1,4 +1,4 @@
-# ☕ Costa Cafe Sales Insights Dashboard
+#  Costa Cafe Sales Insights Dashboard
 
 This project presents an end-to-end analysis of Costa Cafe’s retail sales using **SQL** and **Power BI**. The aim is to extract actionable business insights, track performance metrics, and support decision-making by visualizing patterns in product sales, customer behavior, and time-based trends.
 
@@ -6,16 +6,16 @@ This project presents an end-to-end analysis of Costa Cafe’s retail sales usin
 
 ![Sales Dashboard Preview](https://github.com/user-attachments/assets/f560e52a-8c8a-4532-a6d7-a99cee217935)
 
-## 📌 Project Goals
+##  Project Goals
 
 This analytical solution focuses on:
-- 📉 Querying structured sales data from a relational database.
-- 📊 Designing visually intuitive dashboards with Power BI.
-- 🧠 Understanding which products and timeframes yield the highest sales.
-- 💰 Investigating pricing impact and promotional efficiency.
-- 🔁 Recommending data-driven improvements for sales growth.
+-  Querying structured sales data from a relational database.
+-  Designing visually intuitive dashboards with Power BI.
+-  Understanding which products and timeframes yield the highest sales.
+-  Investigating pricing impact and promotional efficiency.
+-  Recommending data-driven improvements for sales growth.
 
-## 📂 Dataset Overview
+##  Dataset Overview
 
 The dataset used covers a range of transactional and product-related attributes, including:
 - `Transaction ID`: Unique identifier for each sale.
@@ -25,25 +25,25 @@ The dataset used covers a range of transactional and product-related attributes,
 - `Product Info`: Product name, category, and type.
 - `Unit Price`: Selling price per item.
 
-## 🛠️ Tools Used
+##  Tools Used
 
 - **MySQL** – Data querying, aggregation, and preprocessing.
 - **Power BI** – Interactive dashboards and reporting visuals.
 - **Microsoft Excel** (preprocessing support for small fixes and previews).
 
-## ⚙️ Approach & Techniques
+##  Approach & Techniques
 
-### 🔍 SQL-Based Data Processing
+###  SQL-Based Data Processing
 - Cleaned and validated raw data with SQL queries.
 - Generated summaries and aggregated results (e.g., monthly revenue, daily trends).
 - Derived custom KPIs for visual storytelling.
 
-### 📈 Power BI Dashboard Design
+###  Power BI Dashboard Design
 - Integrated SQL output into Power BI for interactive reporting.
 - Designed slicers and filters for month-wise and product-wise navigation.
 - Implemented advanced visuals like calendar heat maps, stacked bar charts, and multi-line graphs.
 
-## 📊 Key Dashboards and Visuals
+##  Key Dashboards and Visuals
 
 1. **Calendar Heat Map**  
    > Shows daily sales performance using dynamic shading and tooltips for exact metrics.
@@ -66,26 +66,26 @@ The dataset used covers a range of transactional and product-related attributes,
 7. **Hourly & Daily Heatmap**  
    > Provides a 2D time grid of sales performance across hours and days for peak time identification.
 
-## 📌 Metrics Tracked
+##  Metrics Tracked
 
-- 🔹 **Total Revenue & Monthly Growth**
-- 🔹 **Order Volume & Frequency**
-- 🔹 **Quantity Sold Trends**
-- 🔹 **Store Location Impact**
-- 🔹 **Top Categories & SKUs**
+-  **Total Revenue & Monthly Growth**
+-  **Order Volume & Frequency**
+-  **Quantity Sold Trends**
+-  **Store Location Impact**
+-  **Top Categories & SKUs**
 
-## 📊 Insights Extracted
+##  Insights Extracted
 
 - High-margin items clustered within a few product categories.
 - Sales peaks observed during weekends and lunchtime hours.
 - Seasonal dips correlated with specific low-sales months.
 - Price promotions had a measurable short-term effect on sales.
 
-## ✅ Outcome
+##  Outcome
 
 The dashboard enables business stakeholders to monitor performance in real time, compare monthly KPIs, and identify trends with ease. It supports data-backed decisions in marketing, inventory, and operations.
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone this repo:
    ```
